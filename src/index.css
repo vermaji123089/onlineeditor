@@ -7,7 +7,107 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+textarea {
+  /* width: 100%;
+  height: 100%; */
+  
+  border: solid;
+}
+
+/* CSS code for header */
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  text-decoration: underline;
+}
+/* CSS code for footer */
+footer {
+  /* position: fixed; */
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  font-size: 14px;
+  text-align: center;
+  z-index: 111;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  text-decoration: underline;
+}
+/* CSS code for logo with hover effect */
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+}
+
+.logo-container h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 1px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.logo-container h1:hover {
+  transform: scale(1.1);
+}
+.texAra button:hover{
+background-color: #333;
+color: white;
+}
+.MANCON{
+  display: flex;
+   border:solid 1px black;
+   height:'85vh'
+}
+@media only screen and (max-width: 800px) {
+  /* Styles for small mobile devices go here */
+  .MANCON{
+    display: block;
+     border:solid 1px black;
+     height:'85vh'
+  }
 }
