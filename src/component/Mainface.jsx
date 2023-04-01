@@ -1,6 +1,7 @@
 
 import Editor from '@monaco-editor/react'
 import React, { useState } from 'react'
+
 // import Editor from "@monaco-editor/react";
 
 const Mainface = () => {
@@ -121,7 +122,8 @@ const Mainface = () => {
                     width:'100%',
                     border:'solid 0.9px black'
                 }}>
-                    <iframe width='100%' height='100%' srcDoc={IFMCODE} />
+                   
+                   <iframe width='100%' height='100%' srcDoc={IFMCODE} />
                 </div>
 
 

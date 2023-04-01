@@ -1,7 +1,7 @@
 import './App.css';
 import Footer from './component/Footer';
 import Header from './component/Header';
-import Mainface from './component/Mainface.jsx';
+import Mainface from './component/Mainface';
 
 function App() {
   return (
@@ -11,6 +11,6 @@ function App() {
       <Footer/>
     </div>
   );
-}
+} 
 
 export default App;
